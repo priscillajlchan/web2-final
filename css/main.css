@@ -1,0 +1,36 @@
+body {
+
+}
+
+
+#container {
+	min-width: 320px; 
+	max-width: 480px; 
+	margin: auto; 
+
+}
+
+header {
+	
+}
+
+#mainnav ul {
+	padding:0 0 1px 0;
+	margin:1px 0 0 0;
+	list-style-type:none;
+	border-bottom:1px solid gray;
+	line-height: 28px;
+}
+
+#mainnav ul li {
+	display:inline;
+	border: #fff;
+}
+
+#mainnav ul li a {
+	padding: 6px 12px;
+}
+
+#mainnav ul li a:hover {
+	background-color:#ddd;
+}
