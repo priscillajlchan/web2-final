@@ -15,6 +15,8 @@ body {
 	max-width: 480px; 
 	margin: auto; 
 
+
+
 }
 
 header {
@@ -23,28 +25,39 @@ header {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 55px;
+	color: #0099FF;
 }
 
-/* tabs tabs tabs */
+h2 {
+
+	font-size: 35px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+/* styling of the tabs */
 
 ul {
  width:100%;
  list-style-type:none;
- margin:0px;
- padding:9px 0px 6px 0px;
- background-color:white;
+ margin: 0px;
+ padding: 10px 0px 10px 0px;
+ background-color: #F0F0F0;
+
 
 }
 
 ul li {
  display:inline;
- padding:9px 16px 6px 16px;
+ padding:10px 16px 10px 16px;
 }
 
 ul li a {
 	text-decoration:none;
-	color:#999999;
+	color:#585858;
 }
 
 ul li:active {
@@ -52,11 +65,105 @@ ul li:active {
 }
 
 ul li:hover {
-	background-color:#dedede;
+	background-color: #888888;
+
 }
+
+
 
 /* Main Contents! */
 
+#content {
+	min-width:320px;
+	max-width:480px;
+	margin:0 auto;
+}
+
+#contact p {
+	color:#000000;
+	font-size:14px;
+	text-align: left;
+}
+
+#contact form {
+	margin:0 auto;
+	list-style-type:none;
+	overflow: hidden;
+	text-align:left;
+	margin-bottom:3px;
+}
+
+#contact label {
+	padding-right:5px;
+	display:inline-block;
+	text-align: left;
+}
+
+#contact form li{
+	width: 700px;
+	height: 20px;
+	margin:0px;
+	color:#000000;
+	font-size:16px;
+	text-align: left;
+	padding-bottom:15px; 
+
+	
+}
+
+#poll label {
+	color:#000000;
+	font-size:16px;
+	margin-top:0px;
+	margin-left:10px;
+}
+
+.item {
+	height: 16px;
+	background-color: #999999;
+	color:white;
+	font-size:12px;
+	padding-top:4px;
+	padding-right:4px;
+	text-align:right;
+	border-radius:25px;
+}
+
+
+
+
+
+/* Social Media */
+
+.facebook_32, .google_plus_32, .twitter_32{
+	background: url(../sprites/sprites.png) no-repeat;
+	position: relative;
+	top: 28px;
+	display:inline-block;
+	float:right;
+	text-indent:-99999px;
+}
+
+
+.facebook_32{
+background-position: -285px -210px;
+width: 32px;
+height: 32px;
+}
+
+.google_plus_32{
+background-position: -320px -210px;
+width: 32px;
+height: 32px;
+}
+.twitter_32{
+background-position: -356px -209px;
+width: 32px;
+height: 32px;
+}
+
+
+ /**/ 
 section {
 	min-width: 320px; 
 	max-width: 480px; 
@@ -73,7 +180,7 @@ article {
 
 .more {
 	display: none;
-} 
+}
 
 /* Footer */
 

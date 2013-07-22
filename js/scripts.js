@@ -1,3 +1,5 @@
+// Works! Don't edit
+
 $(document).ready(function(){
 
 	$("#content > section").hide();
@@ -17,3 +19,4 @@ $(document).ready(function(){
 	});
 
 });
+
