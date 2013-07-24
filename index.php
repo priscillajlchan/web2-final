@@ -49,23 +49,23 @@
 		<section id="contact">
 			
 
-			<a class="google_plus_32" href="#">Google+</a>
-			<a class="facebook_32" href="#">Facebook</a>
-			<a class="twitter_32" href="#">Twitter</a>
+			<a class="google_plus_32" href="https://plus.google.com/‎">Google+</a>
+			<a class="facebook_32" href="www.facebook.com">Facebook</a>
+			<a class="twitter_32" href="www.twitter.com">Twitter</a>
 
 			<h2>Contact Us</h2>
 
 			<p>This is where you can contact us. Don't hesitate to shoot us an email or phone us at 1-800-033-1010. We'll try our best to get back to you within 24 hours on our office hours.</p>
 
-			<form action="mail.php" method="post">
+			<form action="mail.php" method="POST">
 
 					<p><label for="name">Name</label> <input class="info" type="text"></p>
 
 					<p><label for="email">Email</label> <input class="info" type="text"></p>
 
-					<p><label for="message">Message</label> <input class="info" type="text"></p>
+					<p>Message</p><textarea name="message" rows="6" cols="25"></textarea>
 
-					<p><input id="button" class="send" type="submit" value="submit"></p>
+					<p><input type="submit" value="Send"><input type="reset" value="Clear"></p>
 					
 			</form>
 		</section>
@@ -76,7 +76,7 @@
 
 				<h3>What's your favorite frozen yogurt place?</h3>
 
-				<form>
+				<form id="form1" action="poll.php" method="post">
 				
 					<input type="radio" name="dessert" value="menchies">
 					<label for="place">Menchies</label>

@@ -129,7 +129,15 @@ ul li:hover {
 	border-radius:25px;
 }
 
+.item {
+	height: 20px;
+	background-color: gray;	
+	border-radius: 10px;
+}
 
+.pink {
+	background-color: #FFB6C1;
+}
 
 
 
